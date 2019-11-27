@@ -83,5 +83,5 @@ module.exports = function(grunt) {
 	// Default task(s).
 	grunt.registerTask('default', ['concat', 'uglify']);
 	grunt.registerTask('test', ['concat', 'jshint', 'qunit']); // Skip uglification if just testing
-	grunt.registerTask('package', ['clean', 'concat', 'jshint', 'qunit', 'uglify', 'compress', 'docco']);
+	grunt.registerTask('package', ['clean', 'concat', 'jshint', 'qunit']);
 };
